@@ -6,8 +6,8 @@ Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
 
     defaultConfig {
         minSdkVersion 16
@@ -64,6 +64,7 @@ artifacts {
     archives sourcesJar
 }
 
+/*
 install {
     repositories.mavenInstaller {
         pom.project {
@@ -105,3 +106,5 @@ bintray {
         publish = true
     }
 }
+
+ */

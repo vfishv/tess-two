@@ -35,3 +35,4 @@ build/
 javadoc/
 tessdata/
 .externalNativeBuild
+.cxx
